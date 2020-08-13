@@ -1,0 +1,763 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <title>WELCOME TO HEALTH QUILT</title>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	    <!--fontawesome-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+         <link rel="stylesheet" href="font/font/flaticon.css">
+         <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body>
+  
+  
+  <div id="wrapper">
+   <div class="overlay"></div>
+    
+        <!-- Sidebar -->
+    <nav class="fixed-top align-top" id="sidebar-wrapper" role="navigation">
+       <div class="simplebar-content" style="padding: 0px;">
+				<a class="sidebar-brand" href="dash.html">
+          <span class="align-middle">HEALTH QUILT</span>
+        </a>
+
+				 <ul class="navbar-nav align-self-stretch">
+	 
+<li class="sidebar-header">
+					</li>
+	<li class=""> 
+		  <a class="nav-link text-left" href="dash.html" role="button" aria-haspopup="true" aria-expanded="false">
+       <i class="fas fa-chart-line"></i> Dashboard 
+         </a>
+          </li>
+          
+    <li class=""> 
+          <a class="nav-link text-left" href="formresponses.html" role="button" aria-haspopup="true" aria-expanded="false">
+        <i class="fab fa-wpforms"></i> Form Responses
+          </a>
+           </li>
+    <li class=""> 
+          <a class="nav-link text-left" href="callcenter.html" role="button" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-headset"></i> Call Center
+          </a>
+           </li>
+    <li class=""> 
+          <a class="nav-link text-left active" href="patients.html" role="button" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-user-injured"></i> Patients
+          </a>
+           </li>
+    <li class=""> 
+          <a class="nav-link text-left" href="COVID.html" role="button" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-procedures"></i> Patient COVID-19 Track
+          </a>
+           </li>
+    <li class=""> 
+          <a class="nav-link text-left" href="testresult.html" role="button" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-vials"></i> Test Results
+          </a>
+           </li>
+    <li class=""> 
+          <a class="nav-link text-left" href="unverifiedtest.html" role="button" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-vial"></i> Unverified Test
+          </a>
+           </li>
+    <li class=""> 
+          <a class="nav-link text-left" href="scheduletest.html" role="button" aria-haspopup="true" aria-expanded="false">
+        <i class="far fa-file-alt"></i> Scheduled Tests        
+          </a>
+            </li>
+    <li class=""> 
+          <a class="nav-link text-left" href="employers.html" role="button" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-hotel"></i> Employers
+          </a>
+           </li>
+    <li class=""> 
+          <a class="nav-link text-left" href="clinins.html" role="button" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-clinic-medical"></i> Clinics
+          </a>
+           </li>
+    <li class=""> 
+          <a class="nav-link text-left" href="reports.html" role="button" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-file-medical"></i> Reports
+          </a>
+           </li>
+    <li class=""> 
+          <a class="nav-link text-left" href="usermanagement.html" role="button" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-users-cog"></i> User Management
+          </a>
+           </li>
+	 
+
+				
+			</div>
+	   
+	   
+    </nav>
+        <!-- /#sidebar-wrapper -->
+
+
+
+
+
+
+
+
+
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+         
+			
+			<div id="content">
+
+       <div class="container-fluid p-0 px-lg-0 px-md-0">
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light my-navbar">
+
+          <!-- Sidebar Toggle (Topbar) -->
+            <div type="button"  id="bar" class="nav-icon1 hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+               <span></span>
+			    <span></span>
+				 <span></span>
+            </div>
+			
+
+          <!-- Topbar Search -->
+          
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+            <li class="nav-item dropdown  d-sm-none">
+         
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-menu dropdown-menu-right p-3">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small"
+					placeholder="Search for..." >
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="logo">
+                      <img src="img/logo.jpg" height="90",width="120">
+                </a>
+            </li>
+
+            <!-- Nav Item - Alerts -->
+           <li class="nav-item dropdown">
+							<a class="nav-icon dropdown" href="#" id="alertsDropdown" data-toggle="dropdown" aria-expanded="false">
+								<div class="position-relative">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell align-middle"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+									<span class="indicator">4</span>
+								</div>
+							</a>
+							<div class="dropdown-menu dropdown-menu-lg dropdown-menu-right py-0" aria-labelledby="alertsDropdown">
+								<div class="dropdown-menu-header">
+									4 New Notifications
+								</div>
+								<div class="list-group">
+									<a href="#" class="list-group-item">
+										<div class="row no-gutters align-items-center">
+											<div class="col-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle text-danger"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">Update completed</div>
+												<div class="text-muted small mt-1">Restart server 12 to complete the update.</div>
+												<div class="text-muted small mt-1">30m ago</div>
+											</div>
+										</div>
+									</a>
+									
+								</div>
+								<div class="dropdown-menu-footer">
+									<a href="#" class="text-muted">Show all notifications</a>
+								</div>
+							</div>
+						</li>
+            <!-- Nav Item - Messages -->
+            <li class="nav-item">
+              <a class="nav-link " href="#"
+			 role="button">
+                <i class="far fa-envelope"></i>
+                <!-- Counter - Messages -->
+                <span class="badge badge-danger badge-counter">7</span>
+              </a>
+            </li>
+
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown">
+                <span class="mr-2 d-none d-lg-inline text-gray-600 large">Hello Admin!!</span>
+                <img class="img-profile rounded-circle" src="img/logo3.png">
+                <div class="dropdown-menu dropdown-menu-left">
+                  <a class="dropdown-item" href="#"><i class="fas fa-user-circle m-r-5"></i> My Account</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-user-edit m-r-5"></i> Edit</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt m-r-5"></i> Logout</a>
+              </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid px-lg-4">
+<div class="row">
+<div class="col-md-12 mt-lg-4 mt-4">
+
+
+
+
+
+
+
+     <!-- Page Heading -->
+     <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800"><i class="fas fa-user-injured"></i> PATIENT</h1>
+        <form class="d-none d-sm-inline-block form-inline navbar-search">
+          <div class="input-group">
+            <input type="text" class="form-control bg-light " placeholder="Search for..." aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="button">
+                <i class="fas fa-search fa-sm"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+        
+      </div>
+      </div>
+      
+<div class="col-md-12">
+   <div class="row">
+    
+      
+    
+    
+
+
+ 
+                <!-- column -->
+                <div class="col-md-12 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- title-->
+                            <div class="d-md-flex align-items-center">
+                                <div class="ml-auto"> 
+                                  <div class="dl float-right">
+                                  <a class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"  data-toggle="modal" data-target="#exampleModal"><i class="fas fa-user-plus fa-sm text-white-50"></i> 
+                                    ADD NEW PATIENT</a>
+                                </div>
+                               <div class="ml-auto">
+                                    <div class="dl">
+                                      <a class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"  data-toggle="modal" data-target="#example1Modal"><i class="fas fa-user-plus fa-sm text-white-50"></i> 
+                                        UPLOAD CSV FILE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- title -->
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table v-middle">
+                                <thead>
+                                    <tr class="bg-light">
+                                        <th class="border-top-0">Actions</th>
+                                        <th class="border-top-0">Status</th>
+                                        <th class="border-top-0">Patient Barcode</th>
+                                        <th class="border-top-0">First Name</th>
+                                        <th class="border-top-0">Last Name</th>
+                                        <th class="border-top-0">DOB</th>
+                                        <th class="border-top-0">Phone</th>
+                                        <th class="border-top-0">Email</th>
+                                        <th class="border-top-0">Employer</th>
+                                        <th class="border-top-0">Clinic</th>
+                                        <th class="border-top-0">Timezone</th>
+                                        <th class="border-top-0">Last Seen</th>
+                                        <th class="border-top-0">Last Response</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-left">
+                                            <div class="dropdown dropdown-action">
+                                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false" ><i class="fa fa-ellipsis-v"></i></a>
+                                                <div class="dropdown-menu dropdown-menu-left">
+                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampModal"><i class="fas fa-vials m-r-5"></i> Add Test Results</a>
+                                                    <a class="dropdown-item" href="#"><i class="fa fa-clipboard m-r-5"></i> Copy From Link</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-sms m-r-5"></i> Send Form SMS</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-toggle-on m-r-5"></i> Activate</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-calendar-week m-r-5"></i> Schedule Telemedicine</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-redo m-r-5"></i> Resend Activation Email</a>
+                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#examplModal"><i class="fas fa-edit m-r-5"></i> Edit</a>
+                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_patient"><i class="fas fa-trash-alt m-r-5"></i> Delete</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-success">Active</td>
+                                        <td>K6231965A</td>
+                                        <td>Kimberly</td>
+                                        <td>
+                                            <label class="label label-danger">A jones</label>
+                                        </td>
+                                        <td>6/23/1965</td>
+                                        <td>9072305396</td>
+                                        <td>kjones@helicop.com</td>
+                                        <td>
+                                            <h5 class="m-b-0">Helicop</h5>
+                                        </td>
+                                        <td>Anchorage Office</td>
+                                        <td>CT</td>
+                                        <td>5/22/2020 3:30:54 PM</td>
+                                        <td>5/20/2020 10:51:52 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">
+                                            <div class="dropdown dropdown-action">
+                                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                <div class="dropdown-menu dropdown-menu-left">
+                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampModal"><i class="fas fa-vials m-r-5"></i> Add Test Results</a>
+                                                    <a class="dropdown-item" href="#"><i class="fa fa-clipboard m-r-5"></i> Copy Form Link</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-sms m-r-5"></i> Send Form SMS</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-toggle-on m-r-5"></i> Activate</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-calendar-week m-r-5"></i> Schedule Telemedicine</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-redo m-r-5"></i> Resend Activation Email</a>
+                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#examplModal"><i class="fas fa-edit m-r-5"></i> Edit</a>
+                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_patient"><i class="fas fa-trash-alt m-r-5"></i> Delete</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-danger">Inactive</td>
+                                        <td>B7241980A</td>
+                                        <td>BRETT</td>
+                                        <td>
+                                            <label class="label label-info">A williason</label>
+                                        </td>
+                                        <td>7/24/1980</td>
+                                        <td>8176732315</td>
+                                        <td>bwilliamson@hilcorp.com</td>
+                                        <td>
+                                            <h5 class="m-b-0">Hilcorp</h5>
+                                        </td>
+                                        <td>Hilcorp-Corporate</td>
+                                        <td>CT</td>
+                                        <td>5/13/2020 7:01:45 PM</td>
+                                        <td>5/13/2020 11:20:26 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">
+                                            <div class="dropdown dropdown-action">
+                                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                <div class="dropdown-menu dropdown-menu-left">
+                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampModal"><i class="fas fa-vials m-r-5"></i> Add Test Results</a>
+                                                    <a class="dropdown-item" href="#"><i class="fa fa-clipboard m-r-5"></i> Copy Form Link</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-sms m-r-5"></i> Send Form SMS</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-toggle-on m-r-5"></i> Activate</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-calendar-week m-r-5"></i> Schedule Telemedicine</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-redo m-r-5"></i> Resend Activation Email</a>
+                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#examplModal"><i class="fas fa-edit m-r-5"></i> Edit</a>
+                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_patient"><i class="fas fa-trash-alt m-r-5"></i> Delete</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-danger">Inactive</td>
+                                        <td>S9111982A</td>
+                                        <td>Stephen</td>
+                                        <td>
+                                            <label class="label label-success">A. Morgan</label>
+                                        </td>
+                                        <td>9/11/1982</td>
+                                        <td>9072525869</td>
+                                        <td>smorgan@hilcorp.com</td>
+                                        <td>
+                                            <h5 class="m-b-0">Jones-Granger</h5>
+                                        </td>
+                                        <td>Hilcorp AK-CIO (Alaska)</td>
+                                        <td>AKT</td>
+                                        <td>5/28/2020 6:31:07 PM</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">
+                                            <div class="dropdown dropdown-action">
+                                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                <div class="dropdown-menu dropdown-menu-left">
+                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampModal"><i class="fas fa-vials m-r-5"></i> Add Test Results</a>
+                                                    <a class="dropdown-item" href="#"><i class="fa fa-clipboard m-r-5"></i> Copy Form Link</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-sms m-r-5"></i> Send Form SMS</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-toggle-on m-r-5"></i> Activate</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-calendar-week m-r-5"></i> Schedule Telemedicine</a>
+                                                    <a class="dropdown-item" href="#"><i class="fas fa-redo m-r-5"></i> Resend Activation Email</a>
+                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#examplModal"><i class="fas fa-edit m-r-5"></i> Edit</a>
+                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_patient"><i class="fas fa-trash-alt m-r-5"></i> Delete</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-danger">Inactive</td>
+                                        <td>M3281981A</td>
+                                        <td>Mike</td>
+                                        <td>
+                                            <label class="label label-purple">Abbott</label>
+                                        </td>
+                                        <td>3/28/1981</td>
+                                        <td>9073981982</td>
+                                        <td>mabbott@hilcorp.com</td>
+                                        <td>
+                                            <h5 class="m-b-0">Hilcorp</h5>
+                                        </td>
+                                        <td>Hilcorp AK-CIO (Alaska)</td>
+                                        <td>AKT</td>
+                                        <td>6/3/2020 9:19:57 PM</td>
+                                        <td>6/3/2020 9:24:50 PM</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+               
+
+    </div>
+
+    </div>
+
+
+<!--modal-->
+<!---modal 3-->
+<div class="modal fade" id="exampModal" tabindex="-1" role="dialog" aria-labelledby="exampModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampModalLabel">ADD TEST RESULT</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="inputState"></label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Please select one....</option>
+                    <option>Antibody test</option>
+                    <option>COVID-19 test</option>
+                    <option>Nasal Test</option>
+                  </select>
+                </div>
+             <!---   <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>--->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Add</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- /.container-fluid -->
+
+  </div>
+        
+        
+        
+        
+    
+        
+        
+        
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row text-muted">
+                    <div class="col-12 text-center">
+                        <p class="mb-0">
+                            <a href="index.html" class="text-muted"><strong>2020 copyrights </strong></a> &copy Health Quilt . All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+<div class="modal fade" id="examplModal" tabindex="-1" role="dialog" aria-labelledby="examplModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="examplModalLabel">EDIT PATIENT</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">First Name</label>
+                  <input type="name" class="form-control" id="inputEmail4" placeholder="FirstName">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Last Name</label>
+                  <input type="name" class="form-control" id="inputPassword4" placeholder="LastName">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Email</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="abc@yahoo.com">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+                <div class="form-group">
+                  <label for="inputState">Employer</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="inputState">Clinics</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="inputZip">Phone Number</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+              </div>
+              <div class="form-group">
+             <!---   <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>--->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!----modal page---->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">NEW PATIENT</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">First Name</label>
+                    <input type="name" class="form-control" id="inputEmail4" placeholder="FirstName">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Last Name</label>
+                    <input type="name" class="form-control" id="inputPassword4" placeholder="LastName">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Email</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="abc@yahoo.com">
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">DOB</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="MM/DD/YYYY">
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">Patient Barcode</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="ID">
+                </div>
+                  <div class="form-group">
+                    <label for="inputState">Employer</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputState">Clinics</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputZip">Phone Number</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                </div>
+                <div class="form-group">
+               <!---   <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </form>--->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!---modal 4-->
+    <div class="modal fade" id="example1Modal" tabindex="-1" role="dialog" aria-labelledby="example1ModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="example1Modal">Upload CSV</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <form>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">CSV File</label>
+                      <input type="name" class="form-control" id="inputEmail4" placeholder="CSV File">
+                    </div>
+                    
+                    <div class="form-group">
+                      <label for="inputState">Employer</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputState">Language</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputState">Clinic</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">Schedule date of test</label>
+                      <input type="name" class="form-control" id="inputEmail4" placeholder="MM/DD/YYYY">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputState">Test type</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>Antibody test</option>
+                        <option>COVID-19 test</option>
+                        <option>Nasal Test</option>
+                      </select>
+                    </div>
+                    
+                  <div class="form-group">
+                 <!---   <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <label class="form-check-label" for="gridCheck">
+                        Check me out
+                      </label
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </form>--->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Upload</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ 
+  
+  
+
+
+  
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+
+<script>
+
+$('#bar').click(function(){
+$(this).toggleClass('open');
+$('#page-content-wrapper ,#sidebar-wrapper').toggleClass('toggled' );
+
+});
+</script>
+
+
+
+
+
+
+</body>
+</html>
